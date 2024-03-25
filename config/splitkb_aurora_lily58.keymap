@@ -82,7 +82,7 @@
 &kp CAPS     &trans            &kp LEFT           &kp DOWN          &kp RIGHT       &kp PG_DN                          &kp KP_N4      &kp KP_N5    &kp KP_N6    &kp KP_PLUS     &trans          &trans
 &bt BT_CLR   &bt BT_SEL 0      &bt BT_SEL 1       &bt BT_SEL 2      &bt BT_SEL 3    &bt BT_SEL 4                       &kp KP_N1      &kp KP_N2    &kp KP_N3    &kp KP_DIVIDE   &rgb_ug RGB_EFF &rgb_ug RGB_SPI
 &trans       &ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG &trans          &trans       &trans   &trans       &kp KP_N0      &kp KP_EQUAL &kp KP_DOT   &kp KP_MULTIPLY &rgb_ug RGB_EFR &rgb_ug RGB_SPD
-                               &trans             &trans            &trans          &trans       &trans   &trans       &trans    &trans   &trans    &trans
+                                                  &trans            &trans          &trans       &trans   &trans       &trans         &trans       &trans    
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_NEXT C_PREV>;
